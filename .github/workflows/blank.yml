@@ -24,7 +24,7 @@ jobs:
           to: 1129345073
           token: 6962075291:AAHqCeW0UncmwtKxxPohJjcRHCG_zXWTQ4s
           location: '55.06904 82.90881'
-          venue: '55.06904 82.90881 ШАРАГА'
+          venue: '55.06904 82.90881 МАСТЕРКЛАД'
           message: |
             Автоматизация питон кода сделанная ${{ github.actor }} ещё и коммит:
             ${{ github.event.commits[0].message }}
