@@ -16,7 +16,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - run: docker build -t ghcr.io/andreysosnov/decembertasks.
+      - run: docker build -t ghcr.io/andreysosnov/decembertasks .
       - run: docker push ghcr.io/andreysosnov/decembertasks
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
