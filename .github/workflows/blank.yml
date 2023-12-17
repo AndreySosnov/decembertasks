@@ -21,7 +21,7 @@ jobs:
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
         with:
-          to: 98500695
+          to: 1129345073
           token: 6962075291:AAHqCeW0UncmwtKxxPohJjcRHCG_zXWTQ4s
           location: '55.06904 82.90881'
           venue: '55.06904 82.90881 ШАРАГА'
